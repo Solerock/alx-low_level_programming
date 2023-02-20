@@ -1,12 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+
 /**
- * main - Entry point
- *
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
  * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
+
+
 int main(void)
 {
 	int n;
@@ -17,16 +20,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
-	
 	if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
 	return (0);
-
 }
